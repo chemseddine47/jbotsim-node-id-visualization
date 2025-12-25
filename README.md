@@ -24,3 +24,16 @@ This method replaces the static icon with dynamic Java2D shapes.
 * **Logic:** The ID is rendered in the center, and because the shape is drawn programmatically, you have full control over the node's color, size, and border weight.
 * **Best for:** Simulations where nodes need to change color or size dynamically based on their algorithmic state (e.g., leader election).
 
+## 🚀 How to Run the Project
+
+### Prerequisites
+* **Java Runtime Environment (JRE)** installed.
+* **Java Development Kit (JDK)** installed and configured in your environment path.
+
+### Execution Steps
+1. **Open the project** in your preferred IDE (NetBeans or VS Code).
+2. Locate the entry point class: **`LancerEcho1.java`**.
+3. **Run the class** to launch the "Le programme de parcours Echo" simulation window.
+4. Observe the nodes displaying their identities (IDs) according to the implemented solution.
+
+> **Note:** Solution 01 draws IDs over existing icons, while Solution 02 renders custom geometric nodes with centered text.
